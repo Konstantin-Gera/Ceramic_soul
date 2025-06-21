@@ -113,12 +113,15 @@
 							</div>
 						</fieldset>
 						<label class="touch__label" for="question">Your question</label>
-						<textarea class="touch__textarea" name="question" id="question" placeholder="Question"
-							required></textarea>
+						<textarea class="touch__textarea" name="question" id="question" placeholder="Question" required>
+						</textarea>
+						<div class="error-message"></div>
 
 						<label class="touch__label touch__check-block" for="checkbox">
 							<input required class="touch__checkbox" type="checkbox" id="checkbox" />
-							I agree with the <a href="#">terms</a></label>
+							I agree with the <a href="#">terms</a>
+						</label>
+						<div class="checkbox-error-message"></div>
 
 						<button class="btn-send touch__btn">send request</button>
 					</form>
@@ -166,10 +169,14 @@
 					</div>
 					<form action="#" class="footer__form">
 						<input type="email" class="footer__input" placeholder="Enter your e-mail" required />
+						<div class="email-error-message"></div>
+
 						<label class="footer__check-block" for="footer__checkbox">
 							<input required class="footer__checkbox" type="checkbox" id="footer__chekcbox" />
 							I agree with the <a href="#">terms</a>
 						</label>
+						<div class="check-error-message"></div>
+
 						<button class="btn-submit footer__form-btn">submit</button>
 					</form>
 				</div>

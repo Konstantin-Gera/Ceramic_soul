@@ -4,6 +4,15 @@
     padding: 50px 0;
     background-color: $dark;
 
+    .just-validate-error-field {
+        border-bottom: 1px solid $ui-error;
+        outline: transparent;
+
+        &::placeholder {
+            color: $ui-error;
+        }
+    }
+
     &_spaced {
         margin-top: 60px;
     }
